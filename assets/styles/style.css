@@ -1,0 +1,594 @@
+/******La parte de menu*******/
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat';
+    background: #757575;
+}
+h3{
+  font-size: 30px;
+  text-align: center;
+}
+/****Ancho de la tabla blanca****/
+*{
+    color: black;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*******Section: Encabezado*********/
+/******** INICIO **********/
+/*Menu*/
+.menu{
+    width: 1300px; /*Ancho de la posicion de las palabras a base de pixel"*/
+    margin: 0 auto;
+}
+header{
+    background: #FFFFFF;
+    width: 100%;
+    clear:both;
+    content: '';
+    display: table;
+}
+/*******Logo de Huayco SOS*********/
+img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+/************Navegación**********/
+nav{
+    float: right;
+}
+/*********En la misma lista*****/
+nav ul li{
+    font-weight: bold;
+    list-style: none;
+    margin-left: 33px;
+    padding: 29px 0;
+    float: left;
+}
+/*******clase de lista login********/
+.login{
+    border: solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+/************clase de lista register**********/
+.register{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.into{
+    position: relative;
+    bottom: auto;right: 230px;
+    font-size: 19px;
+}
+/************ FIN *****************/
+
+/********Section: Presentación***********/
+/********** INICIO **************/
+/******Imagenes del app Huayco SoS*******/
+.Logo1{
+    float: right;
+    position: relative;
+    bottom: 0; left: 100px;
+    border-radius: 40px;
+    width: 250px;
+    height: auto;
+}
+
+.Logo2{
+    float: right;
+    position: relative;
+    bottom: 515px; left: 450px;
+    border-radius: 40px;
+    width: 250px;
+    height: auto;
+}
+/**********Bienvenido**********/
+div p{
+    margin: 0;
+    padding: 0;
+    width: 430px;
+    position: relative;
+    bottom: 27em; right: 10%;
+    text-shadow: 1px 1px 1px black;
+}
+div h6{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    position: relative;
+    bottom: 68em; right: 12px; /* 1em <> 16px*/
+    text-shadow: 1px 1px 1px black; /*Sombreado en el texto: coordenada x, coordenada y, radio de desenfoque, color de la sombra*/
+    letter-spacing: 1px;/*Espacio en cada caracter*/
+}
+
+section.Present{
+    height: 45.00em;
+}
+.presentation{
+    font-size: 48px;
+    width: 1000px;
+    margin: 0;
+    padding-top: 16%;
+}
+.presentation p{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.presentation h6{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+/*****Logo del PlayStore - AppStore*******/
+.googleplay{
+    border: solid 1px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 1000px; right: 20px;
+    width: 16%;
+    height: auto;
+}
+.appstore{
+    position: relative;
+    bottom: 1000px; left: 20px;
+    width: 16%;
+    height: auto;
+}
+
+/********** FIN ************/
+
+/**********Section: Conseguir ayuda**************/
+/*********** INICIO ***************/
+.ayuda{
+    background: #F5F5F5;
+}
+@media (max-width: 1000px){
+section{
+    padding: 100px 50px;
+  }
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.h3.title{
+    color: #414a4f;/*Cambiar de color*/
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+section p{
+    max-width: 700px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    line-height: 2;
+    color: black;
+}
+p{
+    display: block;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+hr{
+    width: 150px;
+    height: 3px;
+    background-color: #2196f3;
+    border: 0;
+    margin-bottom: 65px;
+}
+ul.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 1000px) {
+    .ayuda .grid li {
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+}
+.ayuda .grid li {
+  padding: 0 20px;
+  flex-basis: 1px;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 1px 1px 5px;
+}
+
+li {
+   display: list-item;
+   text-align: -webkit-match-parent;
+   list-style: none;
+}
+
+h4 {
+   display: block;
+   margin-block-start: 1.20em;
+   margin-block-end: 1.20em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: bold;
+}
+
+.section_buscar {
+   position: relative;
+   right: 150px;
+   height: 340px;
+}
+/*Img. Buscar*/
+.Buscar {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    right: 60px;
+    margin: 50px 125px 20px;
+}
+
+.section_contacto {
+    height: 350px;
+}
+/*Img. contactar*/
+.contacto {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 40px;
+    margin: 50px 125px 20px;
+}
+.section_recibir {
+    position: relative;
+    left: 150px;
+    height: 380px;
+}
+
+    /*Img. recibir*/
+.recibir {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 40px;
+    margin: 50px 125px 20px;
+}
+
+/***************FIN************/
+/*****Section: Como funciona?************/
+/*************INICIO************/
+.funcion {
+    background: #F5F5F5;
+    height: 85em;
+}
+
+section .Fgrid {
+        position: relative;
+        left: 28%;
+    }
+
+.Fgrid li h4 {
+        padding-top: 150px;
+        margin-top: 6.30em;
+        text-align: left;
+    }
+
+.Fgrid li p {
+        padding: 0 120px 0 1px;
+        margin: 0;
+        text-align: justify;
+        font-size: 16px;
+        border-left: 1px;
+    }
+
+.Logo1_2 {
+        position: relative;
+        right: 300px;
+        width: 180px;
+        height: auto;
+        border-radius: 20px;
+    }
+
+.create {
+        position: relative;
+        right: 28em;
+    }
+
+.Logo3 {
+        float: right;
+        position: relative;
+        left: 230px;
+        top: 50px;
+        width: 180px;
+        height: auto;
+        border-radius: 20px;
+    }
+
+.Logo4 {
+        position: relative;
+        right: 300px;
+        top: 50px;
+        width: 180px;
+        height: auto;
+        border-radius: 20px;
+    }
+
+/*************FIN**********/
+/******** Section: Testimonio ******/
+/******** INICIO ********/
+@media (max-width: 1000px) {
+.Testimonio .Tgrid li {
+    flex-basis: 70%;
+    margin-bottom: 65px;
+  }
+}
+
+.Testimonio .Tgrid li{
+    padding: 0 100px;
+    flex-basis: 1px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+    width: 300px;
+}
+    .Testimonio{
+        background: #F5F5F5;
+        height: 40.00em;
+    }
+
+    ul.Tgrid{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .ConAndSegu{
+      position: relative;
+      right: 150px;
+      height: 200px;
+    }
+    .ConAndSegu h4{
+      font-size: 20px;
+      width: 195px;
+      position: relative;
+      right: 45px;
+    }
+    .ConAndSegu p{
+      width: 300px;
+      padding: 0 4px 30% 4px;
+      position: relative;
+      right: 100px; top: 10px;
+    }
+
+    .GoodDon{
+      height: 200px;
+    }
+    .GoodDon h4{
+      font-size: 20px;
+      width: 195px;
+      position: relative;
+      right: 45px;
+    }
+    .GoodDon p{
+      width: 300px;
+      padding: 0 4px 0 4px;
+      position: relative;
+      right: 100px; top: 10px;
+    }
+
+    .GoodService{
+      position: relative;
+      left: 150px;
+      height: 200px;
+    }
+    .GoodService h4{
+      font-size: 20px;
+      width: 195px;
+      position: relative;
+      right: 45px;
+    }
+.GoodService p{
+    width: 300px;
+    padding: 0 4px 0 4px;
+    position: relative;
+    right: 100px; top: 10px;
+}
+.Tgrid li img{
+    width: 100px;
+    position:relative;
+    top: 20px;
+}
+.Tgrid li h5{
+  width: 100px;
+  padding: 100px 0 0 0;
+}
+/*********** FIN *****************/
+/********** Section: Servicio ***********/
+/*********** INICIO *************/
+.servicio{
+  background: #F5F5F5;
+  height: 850px;
+}
+.Sgrid img{
+  float: right;
+  margin-right: 70px;
+  width: 250px;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 10px 10px 40px;
+  position: relative;
+  left: 400px; top: 100px;
+}
+.Sgrid p{
+  float: left;
+  position: relative;
+  right: 250px; bottom: 300px;
+  margin-bottom: 50px;
+}
+svg{
+  position: relative;
+  bottom: 285px; right: 54.00em;
+}
+svg.bi.bi-check-circle-fill-1{
+  position: relative;
+  bottom: 225px;
+}
+svg.bi.bi-check-circle-fill-2{
+  position: relative;
+  bottom: 170px;
+}
+
+.googleplay2{
+  border: solid 1px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 300px; right: 450px;
+  width: 16%;
+  height: auto;
+}
+.appstore2{
+  position: relative;
+  right: 200px; bottom: 243px;
+  width: 15%;
+  height: auto;
+}
+/*********** FIN *************/
+/******* FOOTER **********/
+/******* INICIO *******/
+
+.Logo1_3 {
+  height: auto;
+  position: relative;
+  left: 100px ; bottom: 12px;
+}
+.contenedor{
+  display: flex;
+  width: 1130px;
+  height: 180px;
+  margin-left: 9px;
+  text-align: center;
+  align-items: center;
+}
+.contenedor h2{
+  font-size: 13px;
+  margin-left: 154px;
+  color: #FFFFFF;
+}
+
+.contenedor p{
+  font-size: 12px;
+  position: relative;
+  bottom: auto; right: 12px;
+  text-align: center;
+  margin-top: 25px;
+  color: #FFFFFF;
+}
+
+.columna-1{
+  width: 400px;
+  height: 50px;
+}
+.columna-1 p{
+  width: 274px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 16px;
+  position: relative;
+  left: 18px; top: 20px;
+}
+.columna-1 a{
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.figureSVG1 svg{
+  position: relative;
+  left: 0px;
+  top: 50px;
+  margin-left: 30px;
+}
+.figureSVG1{
+  display: flex;
+  flex-flow: row;
+}
+
+
+.columna-2{
+  color: #FFFFFF;
+  width: 400px;
+  height: 50px;
+}
+.columna-2 a{
+  display: flex;
+  margin-top: 25px;
+  margin-left: 18px;
+  position: relative;
+  left: 215px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px black;
+  font-size: 12px;
+}
+.Tuto{
+  width: 0;
+}
+.testi{
+  width: 0;
+}
+.serv{
+  width: 137px;
+}
+
+.columna-3{
+  width: 400px;
+  height: 50px;
+}
+.columna-3 p{
+  display: flex;
+  margin-top: 25px;
+  position: relative;
+  left: 221px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px black;
+  font-size: 12px;
+  width: 213px;
+}
+
+figure{
+  display: flex;
+  flex-flow: column;
+}
+
+.figureSVG svg{
+    position: relative;
+    bottom: 96px;
+    left: 12em;
+    margin-bottom: 20px;
+}
+
+.copy{
+  width: 400px;
+  font-size: 12px;
+  color: #C4C4C4;
+  position: relative;
+  top: 122px;;
+}
