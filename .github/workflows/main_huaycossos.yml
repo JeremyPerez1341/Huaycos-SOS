@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'HuaycosSOS'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4412C4B6162649F7B69BC79E226FC0FC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0AA8C2D07563429197823D7270576A7F }}
           package: .
